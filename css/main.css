@@ -31,6 +31,18 @@ main .moving-action-top ul li{
     padding-top: 1.5rem;
 }
 
+main .moving-action-top ul li:first-child{
+    position: relative;
+}
+
+main .moving-action-top ul li:first-child::after{
+    color: #adff2f;
+    content: "___";
+    font-size: 1.25rem;
+    position: absolute;
+    bottom: -0.4375rem;
+}
+
 /*-----------------
 MAIN
 ASCOLTATI DI RECENTE
@@ -84,6 +96,15 @@ aside img{
 aside .profile img{
     border-radius: 50%;
     background-color: #808080;
+    height: 1.875rem;
+}
+
+aside .aside-top img{
+    margin-bottom: .625rem;
+}
+
+aside .aside-bottom img{
+    margin-top: .625rem;
 }
 
 aside .aside-bottom #download-img{

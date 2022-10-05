@@ -17,7 +17,7 @@
     </head>
     <body>
         <header class="flex">
-            <button>Effettua l'upgrade</button>
+            <button class="btn upgrade-button">EFFETTUA L'UPGRADE</button>
         </header>
 
         <main class="flex">
@@ -95,7 +95,7 @@
                         <div class="stranger-things song">
                             <img src="img/stranger.jpeg" alt="">
                             <h3 class="text-center name">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <small class="text-center subtitle">Kyle Dixon & Michael Stein</small>
                         </div>
                         <!-- /stranger things  -->
 
@@ -187,7 +187,7 @@
             <!-- Immagine e nome album - canzone -->
             <div class="listening-now flex">
                 <img src="img/sinister.jpeg" alt="">
-                <div>
+                <div class="flex-column align-items-center">
                     <h5>Sinister</h5>
                     <small>Brano Nome</small>
                 </div>
@@ -204,16 +204,18 @@
             <!-- Pulsanti per navigazione brani -->
             <div class="music-navigation flex-column justify-space-around">
                 <div class="navigation-icons flex justify-space-around">
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-regular fa-circle-play"></i>
-                    <i class="fa-solid fa-forward-step"></i>    
-                    <i class="fa-solid fa-rotate-right"></i>
+                    <i class="random-icon fa-solid fa-shuffle"></i>
+                    <i class="back-icon fa-solid fa-backward-step"></i>
+                    <i class="play-icon fa-regular fa-circle-play"></i>
+                    <i class="forward-icon fa-solid fa-forward-step"></i>    
+                    <i class="replay-icon fa-solid fa-rotate-right"></i>
                 </div>
 
                 <div class="progress-bar flex justify-center">
                     <small class="time">0:25</small> 
-                    <span class="bar align-self-center"></span> 
+                    <div class="bar align-self-center">
+                        <div class="bar-upon"></div>
+                    </div> 
                     <small class="time">4:35 </small>
                 </div>
             </div>
@@ -225,7 +227,9 @@
                 <i class="fa-solid fa-desktop"></i>
                 <div class="progress-bar flex">
                     <i class="fa-solid fa-volume-high"></i>
-                    <span class="bar-2 align-self-center"></span> 
+                    <div class="bar-2 align-self-center">
+                        <div class="bar-upon"></div>
+                    </div> 
                 </div>
             </div>
             <!-- /Settaggi volume e altro -->

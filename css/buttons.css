@@ -1,3 +1,16 @@
 /*--------------
     BUTTON 
 --------------*/
+.btn{
+    border: none;
+    background-color: transparent;
+    border-radius: 1.875rem;
+    cursor: pointer;
+}
+
+.upgrade-button{
+    color: white;
+    border: 1px solid white;
+    padding: .625rem 2.1875rem;
+    margin-right: 1.5625rem;
+}
