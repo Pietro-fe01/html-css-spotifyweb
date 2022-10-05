@@ -5,6 +5,7 @@
 :root{
     --dark-blue: rgba(8, 11, 18, 0.8); /*Header*/
     --dark-grey: #282828; /*footer*/
+    --lighter-grey: #737373; /*footer buttons*/
     --grey-darker: #141922; /*main*/
     --grey-light: #76787d; /*text main top*/
 }

@@ -15,7 +15,7 @@
         <!-- /Font Awesome -->
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body class="debug">
+    <body>
         <header class="flex">
             <button>Effettua l'upgrade</button>
         </header>
@@ -52,7 +52,7 @@
                 <div class="aside-bottom">
                     <!-- Scarica -->
                     <div class="aside-action">
-                        <img src="img/download.svg" alt="">
+                        <img id="download-img" src="img/download.svg" alt="">
                     </div>
                     <!-- /Scarica -->
 
@@ -183,6 +183,52 @@
             <!-- /Il corpo del main sulla destra - content -->
         </main>
 
-        <footer></footer>
+        <footer class="flex">
+            <!-- Immagine e nome album - canzone -->
+            <div class="listening-now flex">
+                <img src="img/sinister.jpeg" alt="">
+                <div>
+                    <h5>Sinister</h5>
+                    <small>Brano Nome</small>
+                </div>
+            </div>
+            <!-- /Immagine e nome album - canzone -->
+
+            <!-- Cuore e Cartella icons -->
+            <div class="music-like flex-column justify-center align-items-center">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+            <!-- /Cuore e Cartella icons -->
+
+            <!-- Pulsanti per navigazione brani -->
+            <div class="music-navigation flex-column justify-space-around">
+                <div class="navigation-icons flex justify-space-around">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>    
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+
+                <div class="progress-bar flex justify-center">
+                    <small class="time">0:25</small> 
+                    <span class="bar align-self-center"></span> 
+                    <small class="time">4:35 </small>
+                </div>
+            </div>
+            <!-- /Pulsanti per navigazione brani -->
+
+            <!-- Settaggi volume e altro -->
+            <div class="music-settings flex justify-space-around">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <div class="progress-bar flex">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <span class="bar-2 align-self-center"></span> 
+                </div>
+            </div>
+            <!-- /Settaggi volume e altro -->
+        </footer>
     </body>
 </html>

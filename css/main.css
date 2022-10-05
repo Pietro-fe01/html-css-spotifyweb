@@ -13,9 +13,9 @@ main .main-content-right{
     width: calc(100% - 3.125rem);
 }
 
-/*-----------------
-MOVING ACTION TOP 
--------------------*/
+/*---------------------
+MAIN MOVING ACTION TOP 
+----------------------*/
 main .main-content-right .moving-action-top{
     color: var(--grey-light);
 }
@@ -32,6 +32,7 @@ main .moving-action-top ul li{
 }
 
 /*-----------------
+MAIN
 ASCOLTATI DI RECENTE
 CREATI PER TE
 ARTISTI PIU' POPOLARI
@@ -83,5 +84,9 @@ aside img{
 aside .profile img{
     border-radius: 50%;
     background-color: #808080;
+}
+
+aside .aside-bottom #download-img{
+    transform: translate(-0.1875rem, 0px);
 }
 

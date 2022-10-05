@@ -4,4 +4,60 @@
 footer{
     height: 5.625rem;
     background-color: var(--dark-grey);
+    padding: 1.25rem .625rem;
+}
+
+/* <!-- Immagine e nome album - canzone --> */
+.listening-now{
+ width: 20%;
+ color: white;
+}
+
+.listening-now div{
+    padding-left: .625rem;
+}
+
+.listening-now small{
+    color: var(--grey-light);
+    font-weight: bold;
+}
+
+/* <!-- Cuore e Cartella icons --> */
+.music-like{
+    width: 10%;
+    color: var(--lighter-grey);
+}
+
+.music-like i{
+    margin: 0.125rem 0;
+}
+
+/* <!-- Pulsanti per navigazione brani --> */
+.music-navigation{
+    width: 40%;
+    color: white;
+}
+
+.bar{
+    width: 60%;
+    margin: 0 .625rem;
+    height: .1875rem;
+    background-color: grey;
+    border-radius: 3.125rem;
+}
+
+/* <!-- Settaggi volume e altro --> */
+.music-settings{
+    width: 30%;
+    align-items: center;
+    color: white;
+    margin-left: .625rem;
+}
+
+.bar-2{
+    width: 5rem; 
+    margin: 0 .3125rem;
+    height: .1875rem;
+    background-color: grey;
+    border-radius: 3.125rem;
 }
