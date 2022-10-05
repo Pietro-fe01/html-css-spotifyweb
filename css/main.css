@@ -1,3 +1,88 @@
+/*-----------
+    MAIN
+-------------*/
+main{
+    height: calc(100% - 5.625rem);
+    background-color: var(--grey-darker);
+
+}
+
+main .main-content-right{
+    padding: 4.375rem 1.25rem 0 1.25rem;
+    overflow-y: auto;
+    width: calc(100% - 3.125rem);
+}
+
+/*-----------------
+MOVING ACTION TOP 
+-------------------*/
+main .main-content-right .moving-action-top{
+    color: var(--grey-light);
+}
+
+main .moving-action-top ul{
+    padding: 0 1.5rem;
+}
+
+main .moving-action-top ul li{
+    width: calc(100% / 4 );
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+/*-----------------
+ASCOLTATI DI RECENTE
+-------------------*/
+main .ascoltati-recente{
+    justify-content: space-evenly;
+}
+
+main .ascoltati-section h2{
+    margin: 2.5rem 0;
+    color: white;
+}
+
+main .ascoltati-section h3{
+    color: white;
+}
+
+main .ascoltati-recente .song{
+    width: 13.75rem;
+    height: 13.75rem;
+    background-color: red;
+    border: 1px solid;
+    margin-bottom: 3.4375rem;
+}
+
+main .ascoltati-recente .song img{
+    max-width: 100%;
+}
+
+main .ascoltati-recente .song small{
+    color: var(--grey-light);
+    font-weight: bold;
+    display: block;
+}
+
+
 /*--------------
-    MAIN 
+    ASIDE 
 --------------*/
+aside {
+    width: 3.125rem;
+    padding: .3125rem 0;
+    justify-content: center;
+    align-content: space-between;
+    background-color: black;
+}
+
+aside img{
+    width: 1.875rem;
+}
+
+aside .profile img{
+    border-radius: 50%;
+    background-color: #808080;
+}
+

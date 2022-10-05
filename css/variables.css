@@ -3,5 +3,8 @@
 --------------*/
 
 :root{
-    
+    --dark-blue: rgba(8, 11, 18, 0.8); /*Header*/
+    --dark-grey: #282828; /*footer*/
+    --grey-darker: #141922; /*main*/
+    --grey-light: #76787d; /*text main top*/
 }

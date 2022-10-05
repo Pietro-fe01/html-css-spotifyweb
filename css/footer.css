@@ -1,3 +1,7 @@
 /*--------------
     FOOTER 
 --------------*/
+footer{
+    height: 5.625rem;
+    background-color: var(--dark-grey);
+}

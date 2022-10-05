@@ -1,25 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify-web</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!-- /Google Fonts -->
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- /Font Awesome -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header></header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify-web</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <!-- /Google Fonts -->
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- /Font Awesome -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="debug">
+        <header class="flex">
+            <button>Effettua l'upgrade</button>
+        </header>
 
-    <main></main>
+        <main class="flex">
+            <!-- Barra laterale nera - nav  -->
+            <aside class="nav-bar-left flex wrap-wrap">
+                <div class="aside-top">
+                    <!-- Logo -->
+                    <div class="aside-action">
+                        <img src="img/logo-small.svg" alt="">
+                    </div>
+                    <!-- /Logo -->
 
-    <footer></footer>
-</body>
+                    <!-- Home -->
+                    <div class="aside-action">
+                        <img src="img/home.svg" alt="">
+                    </div>
+                    <!-- /Home -->
+
+                    <!-- Search-icon -->
+                    <div class="aside-action">
+                        <img src="img/search.svg" alt="">
+                    </div>
+                    <!-- /Search-icon -->
+
+                    <!-- Libreria -->
+                    <div class="aside-action">
+                        <img src="img/libreria.svg" alt="">
+                    </div>
+                    <!-- /Libreria -->
+                </div>
+                
+                <div class="aside-bottom">
+                    <!-- Scarica -->
+                    <div class="aside-action">
+                        <img src="img/download.svg" alt="">
+                    </div>
+                    <!-- /Scarica -->
+
+                    <!-- User profile -->
+                    <div class="aside-action profile">
+                        <img src="img/profile.svg" alt="">
+                    </div>
+                    <!-- /User profile -->
+                </div>
+            </aside>
+            <!-- /Barra laterale nera - nav  -->
+
+            <!-- Il corpo del main sulla destra - content -->
+            <div class="main-content-right">
+                <nav class="moving-action-top">
+                    <ul class="list-none flex wrap-wrap justify-center align-items-center">
+                        <li class="flex justify-center">IN EVIDENZA</li>
+                        <li class="flex justify-center">PODCAST</li>
+                        <li class="flex justify-center">CLASSIFICHE</li>
+                        <li class="flex justify-center">GENERI E MOOD</li>
+                        <li class="flex justify-center">NUOVE USCITE</li>
+                        <li class="flex justify-center">SCOPRI</li>
+                    </ul>
+                </nav>
+
+                <!-- Brani ascoltati di recente -->
+                <div class="ascoltati-section">
+                    <h2>Recently played</h2>
+                    
+                    <div class="ascoltati-recente flex wrap-wrap">
+                        <!-- heavy metal  -->
+                        <div class="heavy-metal song">
+                            <img src="img/metal_lifting.jpg" alt="">
+                            <h3 class="text-center">Heavy metal</h3>
+                            <small class="text-center">Subtitle</small>
+                        </div>
+                        <!-- /heavy metal  -->
+
+                        <!-- stranger things -->
+                        <div class="stranger-things song"></div>
+                        <!-- /stranger things  -->
+
+                        <!-- A quiet place  -->
+                        <div class="quiet-place song"></div>
+                        <!-- /A quiet place   -->
+
+                        <!-- Split  -->
+                        <div class="split song"></div>
+                        <!-- /Split   -->
+
+                        <!-- A cure for wellness  -->
+                        <div class="A cure for wellness song"></div>
+                        <!-- /A cure for wellness   -->
+
+                        <!-- Sinister  -->
+                        <div class="Sinister song"></div>
+                        <!-- /Sinister   -->
+                    </div>
+                </div>
+                <!-- /Brani ascoltati di recente -->
+            </div>
+            <!-- /Il corpo del main sulla destra - content -->
+        </main>
+
+        <footer></footer>
+    </body>
 </html>

@@ -3,4 +3,35 @@
 --------------*/
 body{
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+/*--------------
+    FLEX 
+--------------*/
+.flex{
+    display: flex;
+}
+
+.wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/*--------------
+    TEXT 
+--------------*/
+.list-none{
+    list-style: none;
+}
+
+.text-center{
+    text-align: center;
 }
