@@ -13,6 +13,11 @@ body{
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .wrap-wrap{
     flex-wrap: wrap;
 }
@@ -34,4 +39,19 @@ body{
 
 .text-center{
     text-align: center;
+}
+
+/*--------------
+    MARIGN 
+--------------*/
+.margin-l-15{
+    margin-left: .9375rem;
+}
+
+.margin-b-30{
+    margin-bottom: 1.875rem;
+}
+
+.margin-b-15{
+    margin-bottom: .9375rem;
 }
