@@ -1,3 +1,57 @@
 /*--------------
-    EFFECTS 
+    HEADER 
 --------------*/
+header .upgrade-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+/*--------------
+    MAIN 
+--------------*/
+.main-content-right .moving-action-top a:hover{
+    color: white;
+}
+
+/*--------------
+    ASIDE 
+--------------*/
+aside .aside-action:hover span.open-menu{
+    color: white;
+}
+
+.playlist-top .playlist-button:hover i{
+    background-color: white;
+}
+.playlist-top .playlist-button:hover span{
+    color: white;
+}
+
+.playlist-bottom li a:hover{
+    color: white;
+}
+
+/*--------------
+    FOOTER 
+--------------*/
+.listening-now .info-brano small a:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.music-like i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.music-navigation .bar:hover,
+.music-settings .bar-2:hover{
+    cursor: pointer;
+}
+.music-navigation .bar:hover .bar-upon,
+.music-settings .bar-2:hover .bar-upon{
+    background-color: #c0fc61;
+}
+
+

@@ -19,12 +19,12 @@ IMMAGINE ALBUM E LIKE
     padding-left: .3125rem;
 }
 
-footer .listening-now .info-brano small{
+footer .listening-now .info-brano a{
     color: var(--grey-light);
     font-weight: bold;
 }
 
-.music-like{
+.music-like button{
     color: var(--lighter-grey);
 }
 
@@ -86,6 +86,7 @@ PULSANTE NAVIGAZIONE BRANI
     height: .1875rem;
     background-color: #5a5a5a;
     border-radius: 3.125rem;
+    position: relative;
 }
 
 .bar-upon{
@@ -95,6 +96,11 @@ PULSANTE NAVIGAZIONE BRANI
     background-color: var(--grey-fill-bar);
 }
 
+.cursor-dot-1, .cursor-dot-2{
+    position: absolute;
+    left: 25%;
+    top: -5px;
+}
 /*----------------------
 SETTAGGI VOLUME E ALTRO
 -----------------------*/
@@ -111,6 +117,7 @@ SETTAGGI VOLUME E ALTRO
     height: .1875rem;
     background-color: #5a5a5a;
     border-radius: 3.125rem;
+    position: relative;
 }
 
 .music-settings i{

@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify-web</title>
+        <!-- Favicon spotify -->
+        <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.8e66b099.png">
+        <link rel="icon" sizes="16x16" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon16.c498a969.png">
+        <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.5cb2bd30.ico">
+        <!-- /Favicon spotify -->
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,31 +30,39 @@
             <aside class="nav-bar-left flex-column justify-space-between align-items-center">
                 <div class="aside-top">
                     <!-- Logo -->
-                    <div class="aside-action">
-                        <img class="logo-small" src="img/logo-small.svg" alt="">
-                        <img class="logo-big display-none" src="/img/logo.svg" alt="">
-                    </div>
+                    <a href="#">
+                        <div class="aside-action">
+                            <img class="logo-small" src="img/logo-small.svg" alt="">
+                            <img class="logo-big display-none" src="/img/logo.svg" alt="">
+                        </div>
+                    </a>
                     <!-- /Logo -->
 
                     <!-- Home -->
-                    <div class="aside-action flex align-items-center">
-                        <img src="img/home.svg" alt="">
-                        <span class="open-menu display-none">Home</span>
-                    </div>
+                    <a href="#" id="home">
+                        <div class="aside-action flex align-items-center">
+                            <img src="img/home.svg" alt="">
+                            <span class="open-menu display-none">Home</span>
+                        </div>
+                    </a>
                     <!-- /Home -->
 
                     <!-- Search-icon -->
-                    <div class="aside-action flex align-items-center">
-                        <img src="img/search.svg" alt="">
-                        <span class="open-menu display-none">Cerca</span>
-                    </div>
+                    <a href="#">
+                        <div class="aside-action flex align-items-center">
+                            <img src="img/search.svg" alt="">
+                            <span class="open-menu display-none">Cerca</span>
+                        </div>
+                    </a>
                     <!-- /Search-icon -->
 
                     <!-- Libreria -->
-                    <div class="aside-action flex align-items-center">
-                        <img src="img/libreria.svg" alt="">
-                        <span class="open-menu display-none">La tua libreria</span>
-                    </div>
+                    <a href="#">
+                        <div class="aside-action flex align-items-center">
+                            <img src="img/libreria.svg" alt="">
+                            <span class="open-menu display-none">La tua libreria</span>
+                        </div>
+                    </a>
                     <!-- /Libreria -->
                 </div>
 
@@ -89,17 +102,23 @@
                 
                 <div class="aside-bottom">
                     <!-- Scarica -->
-                    <div class="aside-action flex justify-center align-items-center">
-                        <img id="download-img" src="img/download.svg" alt="">
-                        <span class="open-menu display-none">Installa App</span>
-                    </div>
+                    <a href="#">
+                        <div class="aside-action flex justify-center align-items-center">
+                            <img id="download-img" src="img/download.svg" alt="">
+                            <span class="open-menu display-none">Installa App</span>
+                        </div>
+                    </a>
                     <!-- /Scarica -->
+
                     <hr class="horizontal-rule display-none">
+
                     <!-- User profile -->
-                    <div class="aside-action profile flex align-items-center">
-                        <img src="img/profile.svg" alt="">
-                        <span class="open-menu display-none">John Doe</span>
-                    </div>
+                    <a href="#">
+                        <div class="aside-action profile flex align-items-center">
+                            <img src="img/profile.svg" alt="">
+                            <span class="open-menu display-none">John Doe</span>
+                        </div>
+                    </a>
                     <!-- /User profile -->
                 </div>
             </aside>
@@ -109,12 +128,24 @@
             <div class="main-content-right">
                 <nav class="moving-action-top">
                     <ul class="list-none flex wrap-wrap justify-center">
-                        <li class="flex justify-center align-items-center">IN EVIDENZA</li>
-                        <li class="flex justify-center align-items-center">PODCAST</li>
-                        <li class="flex justify-center align-items-center">CLASSIFICHE</li>
-                        <li class="flex justify-center align-items-center">GENERI E MOOD</li>
-                        <li class="flex justify-center align-items-center">NUOVE USCITE</li>
-                        <li class="flex justify-center align-items-center">SCOPRI</li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#">IN EVIDENZA</a>
+                        </li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#">PODCAST</a>
+                        </li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#">CLASSIFICHE</a>
+                        </li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#">  GENERI E MOOD</a>
+                        </li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#"> NUOVE USCITE </a>
+                        </li>
+                        <li class="flex justify-center align-items-center">
+                            <a href="#"> SCOPRI</a>
+                        </li>
                     </ul>
                 </nav>
 
@@ -125,49 +156,61 @@
                     <div class="ascoltati-recente flex wrap-wrap">
                         <!-- heavy metal  -->
                         <div class="heavy-metal song">
-                            <img src="img/metal_lifting.jpg" alt="">
-                            <h3 class="text-center name">Heavy metal</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <a href="#">
+                                <img src="img/metal_lifting.jpg" alt="">
+                                <h3 class="text-center name">Heavy metal</h3>
+                                <small class="text-center subtitle">Subtitle</small>
+                            </a>
                         </div>
                         <!-- /heavy metal  -->
 
                         <!-- stranger things -->
                         <div class="stranger-things song">
-                            <img src="img/stranger.jpeg" alt="">
-                            <h3 class="text-center name">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                            <small class="text-center subtitle">Kyle Dixon & Michael Stein</small>
+                            <a href="#">
+                                <img src="img/stranger.jpeg" alt="">
+                                <h3 class="text-center name">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                <small class="text-center subtitle">Kyle Dixon & Michael Stein</small>
+                            </a>
                         </div>
                         <!-- /stranger things  -->
 
                         <!-- A quiet place  -->
                         <div class="quiet-place song">
-                            <img src="img/aquietplace.jpeg" alt="">
-                            <h3 class="text-center name">A quiet place</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <a href="#">
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <h3 class="text-center name">A quiet place</h3>
+                                <small class="text-center subtitle">Subtitle</small>
+                            </a>
                         </div>
                         <!-- /A quiet place   -->
 
                         <!-- Split  -->
                         <div class="split song">
-                            <img src="img/split.jpeg" alt="">
-                            <h3 class="text-center name">Split</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <a href="#">
+                                <img src="img/split.jpeg" alt="">
+                                <h3 class="text-center name">Split</h3>
+                                <small class="text-center subtitle">Subtitle</small>
+                            </a>
                         </div>
                         <!-- /Split   -->
 
                         <!-- A cure for wellness  -->
                         <div class="a-cure-for-wellness song">
-                            <img src="img/cure.jpeg" alt="">
-                            <h3 class="text-center name">A cure for wellness</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <a href="#">
+                                <img src="img/cure.jpeg" alt="">
+                                <h3 class="text-center name">A cure for wellness</h3>
+                                <small class="text-center subtitle">Subtitle</small>
+                            </a>
                         </div>
                         <!-- /A cure for wellness   -->
 
                         <!-- Sinister  -->
                         <div class="sinister song">
-                            <img src="img/sinister.jpeg" alt="">
-                            <h3 class="text-center name">Sinister</h3>
-                            <small class="text-center subtitle">Subtitle</small>
+                            <a href="#">
+                                <img src="img/sinister.jpeg" alt="">
+                                <h3 class="text-center name">Sinister</h3>
+                                <small class="text-center subtitle">Subtitle</small>
+                            </a>
                         </div>
                         <!-- /Sinister   -->
                     </div>
@@ -182,15 +225,19 @@
                     <div class="ascoltati-recente flex wrap-wrap">
                         <!-- Release Radar  -->
                         <div class="song">
-                            <img src="img/radar.jpeg" alt="">
-                            <h3 class="text-center name">Release Radar</h3>
+                            <a href="#">
+                                <img src="img/radar.jpeg" alt="">
+                                <h3 class="text-center name">Release Radar</h3>
+                            </a>
                         </div>
                         <!-- /Release Radar  -->
 
                         <!-- Daili Mix 1 -->
                         <div class="song">
-                            <img src="img/mixdaily.jpeg" alt="">
-                            <h3 class="text-center name">Daily Mix 1</h3>
+                            <a href="#">
+                                <img src="img/mixdaily.jpeg" alt="">
+                                <h3 class="text-center name">Daily Mix 1</h3>
+                            </a>
                         </div>
                         <!-- /Daili Mix 1  -->
                     </div>
@@ -205,15 +252,19 @@
                     <div class="ascoltati-recente flex wrap-wrap">
                         <!-- Lana del rey -->
                         <div class="song">
-                            <img src="img/youg.jpeg" alt="">
-                            <h3 class="text-center name">Lana del Rey</h3>
+                            <a href="#">
+                                <img src="img/youg.jpeg" alt="">
+                                <h3 class="text-center name">Lana del Rey</h3>
+                            </a>
                         </div>
                         <!-- /Lana del rey -->
 
                         <!-- Ludovico Einaudi -->
                         <div class="song">
-                            <img src="img/einaudi.jpeg" alt="">
-                            <h3 class="text-center name">Ludovico Einaudi</h3>
+                            <a href="#">
+                                <img src="img/einaudi.jpeg" alt="">
+                                <h3 class="text-center name">Ludovico Einaudi</h3>
+                            </a>
                         </div>
                         <!-- /Ludovico Einaudi  -->
                     </div>
@@ -229,12 +280,18 @@
                 <img src="img/sinister.jpeg" alt="">
                 <div class="info-brano align-items-center">
                     <h5>Sinister</h5>
-                    <small>Brano Nome</small>
+                    <small>
+                        <a href="#">Brano Nome</a>
+                    </small>
                 </div>
                 <!-- Cuore e Cartella icons -->
                 <div class="music-like flex-column justify-center">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-folder"></i>
+                    <button class="btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn">
+                        <i class="fa-regular fa-folder"></i>
+                    </button>
                 </div>
                 <!-- /Cuore e Cartella icons -->
             </div>
@@ -254,6 +311,7 @@
                     <small class="time">0:25</small> 
                     <div class="bar align-self-center">
                         <div class="bar-upon"></div>
+                        <i class="cursor-dot-1 fa-regular fa-circle-dot display-none"></i>
                     </div> 
                     <small class="time">4:35 </small>
                 </div>
@@ -268,6 +326,7 @@
                     <i class="fa-solid fa-volume-high"></i>
                     <div class="bar-2 align-self-center">
                         <div class="bar-upon"></div>
+                        <i class="cursor-dot-2 fa-regular fa-circle-dot display-none"></i>
                     </div> 
                 </div>
             </div>

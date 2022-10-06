@@ -16,7 +16,7 @@ main .main-content-right{
 /*---------------------
 MAIN MOVING ACTION TOP 
 ----------------------*/
-main .main-content-right .moving-action-top{
+main .main-content-right .moving-action-top a{
     color: var(--grey-light);
 }
 
@@ -160,10 +160,10 @@ aside .profile img{
         width: 80%;
         margin-bottom: 1.5625rem;
     }
-    aside .aside-top .aside-action:nth-child(2){
+    aside .aside-top a:nth-child(2) .aside-action{
         position: relative;
     }
-    aside .aside-top .aside-action:nth-child(2):after{
+    aside .aside-top a:nth-child(2) .aside-action:after{
         color: #adff2f;
         content: "_";
         transform: rotate(90deg);
@@ -235,4 +235,3 @@ aside .playlist-bottom ul li a{
         display: block;
     }
 }
-
