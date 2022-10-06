@@ -15,13 +15,12 @@ IMMAGINE ALBUM E LIKE
  color: white;
 }
 
-.listening-now div{
+.listening-now .info-brano{
     padding-left: .3125rem;
 }
 
-.listening-now small{
+footer .listening-now .info-brano small{
     color: var(--grey-light);
-    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -31,6 +30,15 @@ IMMAGINE ALBUM E LIKE
 
 .music-like i{
     margin: 0.125rem 0;
+}
+
+@media screen and (min-width: 700px){
+    .listening-now small{
+        font-size: 12px;
+    }
+    .listening-now .info-brano{
+        padding-left: .625rem;
+    }    
 }
 
 /*-------------------------
