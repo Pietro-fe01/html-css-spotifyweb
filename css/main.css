@@ -109,6 +109,12 @@ main .listen-section .name{
     }
 }
 
+@media screen and (min-width: 1600px){
+    main .ascoltati-recente .song img{
+        width: 100%;
+    }
+}
+
 /*--------------
     ASIDE 
 --------------*/
