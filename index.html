@@ -22,43 +22,83 @@
 
         <main class="flex">
             <!-- Barra laterale nera - nav  -->
-            <aside class="nav-bar-left flex wrap-wrap">
+            <aside class="nav-bar-left flex-column justify-space-between align-items-center">
                 <div class="aside-top">
                     <!-- Logo -->
                     <div class="aside-action">
-                        <img src="img/logo-small.svg" alt="">
+                        <img class="logo-small" src="img/logo-small.svg" alt="">
+                        <img class="logo-big display-none" src="/img/logo.svg" alt="">
                     </div>
                     <!-- /Logo -->
 
                     <!-- Home -->
-                    <div class="aside-action">
+                    <div class="aside-action flex align-items-center">
                         <img src="img/home.svg" alt="">
+                        <span class="open-menu display-none">Home</span>
                     </div>
                     <!-- /Home -->
 
                     <!-- Search-icon -->
-                    <div class="aside-action">
+                    <div class="aside-action flex align-items-center">
                         <img src="img/search.svg" alt="">
+                        <span class="open-menu display-none">Cerca</span>
                     </div>
                     <!-- /Search-icon -->
 
                     <!-- Libreria -->
-                    <div class="aside-action">
+                    <div class="aside-action flex align-items-center">
                         <img src="img/libreria.svg" alt="">
+                        <span class="open-menu display-none">La tua libreria</span>
                     </div>
                     <!-- /Libreria -->
+                </div>
+
+                <div class="playlist-top display-none">
+                    <h4>PLAYLIST</h4>
+                    <button class="btn playlist-button">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>Crea Playlist</span>
+                    </button>
+                </div>
+            
+                <div class="playlist-bottom display-none">
+                    <ul class="list-none">
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li class="margin-b-10">
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                    </ul>
                 </div>
                 
                 <div class="aside-bottom">
                     <!-- Scarica -->
-                    <div class="aside-action">
+                    <div class="aside-action flex justify-center align-items-center">
                         <img id="download-img" src="img/download.svg" alt="">
+                        <span class="open-menu display-none">Installa App</span>
                     </div>
                     <!-- /Scarica -->
-
+                    <hr class="horizontal-rule display-none">
                     <!-- User profile -->
-                    <div class="aside-action profile">
+                    <div class="aside-action profile flex align-items-center">
                         <img src="img/profile.svg" alt="">
+                        <span class="open-menu display-none">John Doe</span>
                     </div>
                     <!-- /User profile -->
                 </div>
@@ -184,26 +224,25 @@
         </main>
 
         <footer class="flex">
-            <!-- Immagine e nome album - canzone -->
+            <!-- Immagine ,album e like -->
             <div class="listening-now flex">
                 <img src="img/sinister.jpeg" alt="">
-                <div class="flex-column align-items-center">
+                <div class=" align-items-center">
                     <h5>Sinister</h5>
                     <small>Brano Nome</small>
                 </div>
+                <!-- Cuore e Cartella icons -->
+                <div class="music-like flex-column justify-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+                <!-- /Cuore e Cartella icons -->
             </div>
-            <!-- /Immagine e nome album - canzone -->
-
-            <!-- Cuore e Cartella icons -->
-            <div class="music-like flex-column justify-center align-items-center">
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-folder"></i>
-            </div>
-            <!-- /Cuore e Cartella icons -->
+            <!-- Immagine ,album e like -->
 
             <!-- Pulsanti per navigazione brani -->
             <div class="music-navigation flex-column justify-space-around">
-                <div class="navigation-icons flex justify-space-around">
+                <div class="navigation-icons flex justify-center">
                     <i class="random-icon fa-solid fa-shuffle"></i>
                     <i class="back-icon fa-solid fa-backward-step"></i>
                     <i class="play-icon fa-regular fa-circle-play"></i>

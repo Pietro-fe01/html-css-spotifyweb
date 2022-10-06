@@ -26,8 +26,16 @@ body{
     justify-content: center;
 }
 
+.justify-right{
+    justify-content: flex-end;
+}
+
 .justify-space-around{
     justify-content: space-around;
+}
+
+.justify-space-between{
+    justify-content: space-between;
 }
 
 .align-items-center{
@@ -62,4 +70,19 @@ body{
 
 .margin-b-15{
     margin-bottom: .9375rem;
+}
+
+.margin-b-10{
+    margin-bottom: .625rem;
+}
+
+.margin-t-10{
+    margin-top: .625rem;
+}
+
+/*--------------
+    DISPLAY 
+--------------*/
+.display-none{
+    display: none;
 }

@@ -8,28 +8,24 @@ footer{
 }
 
 /*--------------------
-IMMAGINE E NOME ALBUM 
+IMMAGINE ALBUM E LIKE
 ---------------------*/
 .listening-now{
- width: 20%;
+ width: 25%;
  color: white;
 }
 
 .listening-now div{
-    padding-left: .625rem;
+    padding-left: .3125rem;
 }
 
 .listening-now small{
     color: var(--grey-light);
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
-/*--------------------
-CUORE E CARTELLA ICON
----------------------*/
 .music-like{
-    width: 10%;
     color: var(--lighter-grey);
 }
 
@@ -41,12 +37,16 @@ CUORE E CARTELLA ICON
 PULSANTE NAVIGAZIONE BRANI 
 -------------------------*/
 .music-navigation{
-    width: 40%;
+    width: calc(50% - 1.25rem);
     color: white;
 }
 
 .navigation-icons{
     margin-bottom: .625rem;
+}
+
+.navigation-icons i{
+    padding: 0 .9375rem;
 }
 
 .navigation-icons .back-icon,
@@ -81,14 +81,14 @@ PULSANTE NAVIGAZIONE BRANI
 SETTAGGI VOLUME E ALTRO
 -----------------------*/
 .music-settings{
-    width: 30%;
+    width: 25%;
     align-items: center;
     color: white;
     margin-left: .625rem;
 }
 
 .bar-2{
-    width: 5rem; 
+    width: 100%; 
     margin: 0 .3125rem;
     height: .1875rem;
     background-color: #5a5a5a;
@@ -97,4 +97,8 @@ SETTAGGI VOLUME E ALTRO
 
 .music-settings i{
     font-size: .8125rem;
+}
+
+.music-settings .progress-bar{
+    width: 60%;
 }
