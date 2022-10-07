@@ -54,4 +54,9 @@ aside .aside-action:hover span.open-menu{
     background-color: #c0fc61;
 }
 
+.music-navigation .bar:hover .cursor-dot-1,
+.music-settings .bar-2:hover .cursor-dot-2{
+    display: block;
+}
+
 
