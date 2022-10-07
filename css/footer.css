@@ -8,9 +8,13 @@ footer{
     color: white;
 }
 
-/*--------------------
-IMMAGINE ALBUM E LIKE
----------------------*/
+footer a{
+    color: white;
+}
+
+/*-----------------------
+FOOTER LEFT - INFO BRANI
+-----------------------*/
 .left-nav{
  width: 25%;
 }
@@ -36,7 +40,6 @@ IMMAGINE ALBUM E LIKE
         margin-left: auto;
     }
 }
-
 @media screen and (min-width: 1100px){
     .left-nav{
         width: 20%;
@@ -49,26 +52,21 @@ IMMAGINE ALBUM E LIKE
         font-size: 1.0625rem;
     }
 }
-
 @media screen and (min-width: 1600px){
     .left-nav{
         width: 15%;
     }
 }
 
-/*-------------------------
-PULSANTE NAVIGAZIONE BRANI 
--------------------------*/
+/*-----------------------------------------
+FOOTER CENTER - PULSANTI NAVIGAZIONE BRANI
+------------------------------------------*/
 .center-nav{
     width: calc(50% - 1.25rem);
 }
 
 .navigation-icons{
     margin-bottom: .625rem;
-}
-
-footer a{
-    color: white;
 }
 
 .navigation-icons i{
@@ -160,7 +158,6 @@ SETTAGGI VOLUME E ALTRO
         width: 20%;
     }
 }
-
 @media screen and (min-width: 1600px) {
     .right-nav{
         width: 15%;

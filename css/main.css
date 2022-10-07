@@ -14,7 +14,7 @@ main .main-content-right{
 }
 
 /*---------------------
-MAIN MOVING ACTION TOP 
+MAIN - MOVING ACTION TOP 
 ----------------------*/
 main .main-content-right .moving-action-top a{
     color: var(--grey-light);
@@ -62,12 +62,12 @@ main .moving-action-top ul li:first-child::after{
     }
 }
 
-/*-----------------
-MAIN
+/*------------------------------------
+LISTEN SECTION  :
 ASCOLTATI DI RECENTE
 CREATI PER TE
 ARTISTI PIU' POPOLARI
--------------------*/
+-------------------------------------*/
 main .ascoltati-recente{
     justify-content: space-evenly;
 }
@@ -115,7 +115,6 @@ main .listen-section .name{
         margin-bottom: .9375rem;
     }
 }
-
 @media screen and (min-width: 1600px){
     main .ascoltati-recente .song{
         width: calc(100% / 6 - 1.25rem);
