@@ -83,7 +83,7 @@ main .ascoltati-recente .song{
 }
 
 main .ascoltati-recente .song img{
-    max-width: 100%;
+    width: 100%;
 }
 
 main .listen-section .name{

@@ -90,3 +90,14 @@ a{
 .display-none{
     display: none;
 }
+
+/*--------------
+    POSITION 
+--------------*/
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
