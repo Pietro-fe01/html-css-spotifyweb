@@ -55,6 +55,12 @@ main .moving-action-top ul li:first-child::after{
     }
 }
 
+@media screen and (min-width: 1600px){
+    main .moving-action-top ul li{
+        width: calc(100% / 6);
+    }
+}
+
 /*-----------------
 MAIN
 ASCOLTATI DI RECENTE
