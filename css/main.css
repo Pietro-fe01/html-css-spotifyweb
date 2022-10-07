@@ -28,7 +28,7 @@ main .moving-action-top ul li{
     width: calc(100% / 4 );
     font-size: 0.8rem;
     font-weight: bold;
-    margin: .9375rem 0;
+    padding: 1rem 0;
 }
 
 main .moving-action-top ul li:first-child{
@@ -36,11 +36,12 @@ main .moving-action-top ul li:first-child{
 }
 
 main .moving-action-top ul li:first-child::after{
-    color: #adff2f;
-    content: "___";
-    font-size: 1.5rem;
+    content: "";
+    background-color: #adff2f;
+    width: 1.875rem;
+    height: .0938rem;
     position: absolute;
-    bottom: -0.5rem;
+    bottom: .625rem;
 }
 
 @media screen and (min-width: 700px){
