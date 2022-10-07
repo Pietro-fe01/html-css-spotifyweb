@@ -85,6 +85,13 @@ a{
 }
 
 /*--------------
+    PADDING 
+--------------*/
+.padding-l-5{
+    padding-left: .3125rem;
+}
+
+/*--------------
     DISPLAY 
 --------------*/
 .display-none{

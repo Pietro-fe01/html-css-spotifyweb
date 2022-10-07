@@ -5,6 +5,7 @@ footer{
     height: 5.625rem;
     background-color: var(--dark-grey);
     padding: 1.25rem .625rem;
+    color: white;
 }
 
 /*--------------------
@@ -12,14 +13,9 @@ IMMAGINE ALBUM E LIKE
 ---------------------*/
 .left-nav{
  width: 25%;
- color: white;
 }
 
-.left-nav .info-brano{
-    padding-left: .3125rem;
-}
-
-footer .left-nav .info-brano a{
+.left-nav .info-brano a{
     color: var(--grey-light);
     font-weight: bold;
 }
@@ -42,12 +38,21 @@ footer .left-nav .info-brano a{
 }
 
 @media screen and (min-width: 1100px){
+    .left-nav{
+        width: 20%;
+    }
     .left-nav .music-like{
         flex-direction: row;
-        align-items: center;
     }
     .left-nav .music-like i{
         margin-right: .9375rem;
+        font-size: 1.0625rem;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .left-nav{
+        width: 15%;
     }
 }
 
@@ -56,15 +61,19 @@ PULSANTE NAVIGAZIONE BRANI
 -------------------------*/
 .center-nav{
     width: calc(50% - 1.25rem);
-    color: white;
 }
 
 .navigation-icons{
     margin-bottom: .625rem;
 }
 
+footer a{
+    color: white;
+}
+
 .navigation-icons i{
-    padding: 0 .9375rem;
+    margin: 0 .9375rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .navigation-icons .back-icon,
@@ -83,14 +92,14 @@ PULSANTE NAVIGAZIONE BRANI
 .bar{
     width: 60%;
     margin: 0 .625rem;
-    height: .1875rem;
+    height: .3125rem;
     background-color: #5a5a5a;
     border-radius: 3.125rem;
     position: relative;
 }
 
 .bar-upon{
-    height: .1875rem;
+    height: .3125rem;
     width: 25%;
     border-radius: 3.125rem;
     background-color: var(--grey-fill-bar);
@@ -102,20 +111,32 @@ PULSANTE NAVIGAZIONE BRANI
     top: -5px;
     color: #c0fc61;
 }
+
+@media screen and (min-width: 1100px) {
+    .center-nav{
+        width: calc(60% - 1.25rem);
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .center-nav{
+        width: calc(70% - 1.25rem);
+    }
+}
+
 /*----------------------
 SETTAGGI VOLUME E ALTRO
 -----------------------*/
 .right-nav{
     width: 25%;
     align-items: center;
-    color: white;
     margin-left: .625rem;
 }
 
 .bar-2{
     width: 100%; 
     margin: 0 .3125rem;
-    height: .1875rem;
+    height: .3125rem;
     background-color: #5a5a5a;
     border-radius: 3.125rem;
     position: relative;
@@ -125,6 +146,23 @@ SETTAGGI VOLUME E ALTRO
     font-size: .8125rem;
 }
 
+.right-nav .list-icon,
+.right-nav .desktop-icon{
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .right-nav .progress-bar{
     width: 60%;
+}
+
+@media screen and (min-width: 1100px) {
+    .right-nav{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .right-nav{
+        width: 15%;
+    }
 }

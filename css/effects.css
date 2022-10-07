@@ -18,13 +18,12 @@ header .upgrade-button:hover{
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;
+    bottom: .25rem;
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     font-size: 5rem;
     color: white;
 }
-
 .song .layover:hover i{
     opacity: 1;
 }
@@ -61,6 +60,24 @@ aside .aside-action:hover span.open-menu{
     cursor: pointer;
 }
 
+.center-nav .play-icon:hover{
+    transform: scale(2.2);
+}
+
+.center-nav .back-icon:hover,
+.center-nav .forward-icon:hover{
+    transform: scale(1.7);
+}
+
+.center-nav .random-icon:hover,
+.center-nav .replay-icon:hover{
+    transform: scale(1.2);
+}
+
+.center-nav .navigation-icons i:hover{
+    color: white;
+}
+
 .center-nav .bar:hover,
 .right-nav .bar-2:hover{
     cursor: pointer;
@@ -73,6 +90,11 @@ aside .aside-action:hover span.open-menu{
 .center-nav .bar:hover .cursor-dot-1,
 .right-nav .bar-2:hover .cursor-dot-2{
     display: block;
+}
+
+.right-nav .list-icon:hover,
+.right-nav .desktop-icon:hover{
+    color: white;
 }
 
 

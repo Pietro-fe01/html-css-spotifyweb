@@ -305,14 +305,19 @@
         </main>
 
         <footer class="flex">
-            <!-- Immagine ,album e like -->
+            <!-- LEFT - Immagine ,album e like -->
             <div class="left-nav flex">
-                <img src="img/sinister.jpeg" alt="">
-                <div class="info-brano align-items-center">
-                    <h5>Sinister</h5>
-                    <small>
-                        <a href="#">Brano Nome</a>
-                    </small>
+                <div class="info-brano flex">
+                    <!-- immagine brano in ascolto -->
+                    <img src="img/sinister.jpeg" alt="">
+
+                    <!-- Informazioni brano in ascolto -->
+                    <div class="align-self-center padding-l-5">
+                        <h5>Sinister</h5>
+                        <small>
+                            <a href="#">Brano Nome</a>
+                        </small>
+                    </div>
                 </div>
                 <!-- Cuore e Cartella icons -->
                 <div class="music-like flex-column justify-center">
@@ -327,14 +332,24 @@
             </div>
             <!-- Immagine ,album e like -->
 
-            <!-- Pulsanti per navigazione brani -->
+            <!-- CENTER - Pulsanti per navigazione brani -->
             <div class="center-nav flex-column justify-space-around">
                 <div class="navigation-icons flex justify-center">
-                    <i class="random-icon fa-solid fa-shuffle"></i>
-                    <i class="back-icon fa-solid fa-backward-step"></i>
-                    <i class="play-icon fa-regular fa-circle-play"></i>
-                    <i class="forward-icon fa-solid fa-forward-step"></i>    
-                    <i class="replay-icon fa-solid fa-rotate-right"></i>
+                    <a href="#">
+                        <i class="random-icon fa-solid fa-shuffle"></i>
+                    </a>
+                    <a href="#">
+                        <i class="back-icon fa-solid fa-backward-step"></i>
+                    </a>
+                    <a href="#">
+                        <i class="play-icon fa-regular fa-circle-play"></i>
+                    </a>
+                    <a href="#">
+                        <i class="forward-icon fa-solid fa-forward-step"></i>
+                    </a>
+                    <a href="#">
+                        <i class="replay-icon fa-solid fa-rotate-right"></i>
+                    </a>    
                 </div>
 
                 <div class="progress-bar flex justify-center">
@@ -348,10 +363,14 @@
             </div>
             <!-- /Pulsanti per navigazione brani -->
 
-            <!-- Settaggi volume e altro -->
+            <!-- RIGHT - Settaggi volume e altro -->
             <div class="right-nav flex justify-space-around">
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-solid fa-desktop"></i>
+                <a href="#">
+                    <i class="list-icon fa-solid fa-list"></i>
+                </a>
+                <a href="#">
+                    <i class="desktop-icon fa-solid fa-desktop"></i>
+                </a>
                 <div class="progress-bar flex">
                     <i class="fa-solid fa-volume-high"></i>
                     <div class="bar-2 align-self-center">
