@@ -34,7 +34,7 @@ aside .aside-action:hover span.open-menu{
 /*--------------
     FOOTER 
 --------------*/
-.listening-now .info-brano small a:hover{
+.left-nav .info-brano small a:hover{
     text-decoration: underline;
     color: white;
     cursor: pointer;
@@ -45,17 +45,17 @@ aside .aside-action:hover span.open-menu{
     cursor: pointer;
 }
 
-.music-navigation .bar:hover,
-.music-settings .bar-2:hover{
+.center-nav .bar:hover,
+.right-nav .bar-2:hover{
     cursor: pointer;
 }
-.music-navigation .bar:hover .bar-upon,
-.music-settings .bar-2:hover .bar-upon{
+.center-nav .bar:hover .bar-upon,
+.right-nav .bar-2:hover .bar-upon{
     background-color: #c0fc61;
 }
 
-.music-navigation .bar:hover .cursor-dot-1,
-.music-settings .bar-2:hover .cursor-dot-2{
+.center-nav .bar:hover .cursor-dot-1,
+.right-nav .bar-2:hover .cursor-dot-2{
     display: block;
 }
 

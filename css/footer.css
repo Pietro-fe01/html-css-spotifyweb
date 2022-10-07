@@ -10,16 +10,16 @@ footer{
 /*--------------------
 IMMAGINE ALBUM E LIKE
 ---------------------*/
-.listening-now{
+.left-nav{
  width: 25%;
  color: white;
 }
 
-.listening-now .info-brano{
+.left-nav .info-brano{
     padding-left: .3125rem;
 }
 
-footer .listening-now .info-brano a{
+footer .left-nav .info-brano a{
     color: var(--grey-light);
     font-weight: bold;
 }
@@ -33,20 +33,20 @@ footer .listening-now .info-brano a{
 }
 
 @media screen and (min-width: 700px){
-    footer .listening-now small{
+    footer .left-nav small{
         font-size: 12px;
     }
-    .listening-now .music-like{
+    .left-nav .music-like{
         margin-left: auto;
     }
 }
 
 @media screen and (min-width: 1100px){
-    .listening-now .music-like{
+    .left-nav .music-like{
         flex-direction: row;
         align-items: center;
     }
-    .listening-now .music-like i{
+    .left-nav .music-like i{
         margin-right: .9375rem;
     }
 }
@@ -54,7 +54,7 @@ footer .listening-now .info-brano a{
 /*-------------------------
 PULSANTE NAVIGAZIONE BRANI 
 -------------------------*/
-.music-navigation{
+.center-nav{
     width: calc(50% - 1.25rem);
     color: white;
 }
@@ -76,7 +76,7 @@ PULSANTE NAVIGAZIONE BRANI
     transform: scale(2);
 }
 
-.music-navigation .progress-bar .time{
+.center-nav .progress-bar .time{
     font-size: .625rem;
 }
 
@@ -105,7 +105,7 @@ PULSANTE NAVIGAZIONE BRANI
 /*----------------------
 SETTAGGI VOLUME E ALTRO
 -----------------------*/
-.music-settings{
+.right-nav{
     width: 25%;
     align-items: center;
     color: white;
@@ -121,10 +121,10 @@ SETTAGGI VOLUME E ALTRO
     position: relative;
 }
 
-.music-settings i{
+.right-nav i{
     font-size: .8125rem;
 }
 
-.music-settings .progress-bar{
+.right-nav .progress-bar{
     width: 60%;
 }
