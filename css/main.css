@@ -111,7 +111,7 @@ main .listen-section .name{
 
 @media screen and (min-width: 1600px){
     main .ascoltati-recente .song{
-        width: calc(100% / 6 - 1.5625rem);
+        width: calc(100% / 6 - 1.25rem);
     }
 }
 
